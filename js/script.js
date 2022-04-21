@@ -20,6 +20,18 @@ window.addEventListener("load", () => {
   playingSong();
 });
 
+
+let themeToggler = document.querySelector("#theme-toggler");
+
+themeToggler.onclick = () => {
+  themeToggler.classList.toggle("fa-sun");
+  if (themeToggler.classList.contains("fa-sun")) {
+    document.body.classList.add("active");
+  } else {
+    document.body.classList.remove("active");
+  }
+};
+
 function loadMusic(indexNumb) {
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = `Mishary Bin Rashid Alafasy`;
@@ -183,7 +195,7 @@ for (let i = 0; i < allMusic.length; i++) {
   let liTag = `<li li-index="${i + 1}">
                 <div class="row">
                   <span>${allMusic[i].name}</span>
-                  <p>${allMusic[i].artist}</p>
+                  <p>Mishary Bin Rashid Alafasy</p>
                 </div>
                 <span id="${allMusic[i].src}" class="audio-duration">0:51</span>
                 <audio class="${allMusic[i].src}" src="surah/${
@@ -239,14 +251,3 @@ function clicked(element) {
   playMusic();
   playingSong();
 }
-
-let themeToggler = document.querySelector("#theme-toggler");
-
-themeToggler.onclick = () => {
-  themeToggler.classList.toggle("fa-sun");
-  if (themeToggler.classList.contains("fa-sun")) {
-    document.body.classList.add("active");
-  } else {
-    document.body.classList.remove("active");
-  }
-};
