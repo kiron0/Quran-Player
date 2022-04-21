@@ -234,4 +234,233 @@ let allMusic = [{
             name: "Al-Hadid",
             src: "57"
         },
+        {
+            name: "Al-Mujadilah",
+            src: "58"
+        },
+        {
+            name: "Al-Hashr",
+            src: "59"
+        },
+        {
+            name: "Al-Mumtahanah",
+            src: "60"
+        },
+        {
+            name: "As-Saff",
+            src: "61"
+        },
+        {
+            name: "Al-Jumu'ah",
+            src: "62"
+        },
+        {
+            name: "Al-Munafiqun",
+            src: "63"
+        },
+        {
+            name: "At-Taghabun",
+            src: "64"
+        },
+        {
+            name: "At-Talaq",
+            src: "65"
+        },
+        {
+            name: "At-Tahrim",
+            src: "66"
+        },
+        {
+            name: "Al-Mulk",
+            src: "67"
+        },
+        {
+            name: "Al-Qalam",
+            src: "68"
+        },
+        {
+            name: "Al-Haqqah",
+            src: "69"
+        },
+        {
+            name: "Al-Ma'arij",
+            src: "70"
+        },
+        {
+            name: "Nuh",
+            src: "71"
+        },
+        {
+            name: "Al-Jinn",
+            src: "72"
+        },
+        {
+            name: "Al-Muzzammil",
+            src: "73"
+        },
+        {
+            name: "Al-Muddaththir",
+            src: "74"
+        },
+        {
+            name: "Al-Qiyamah",
+            src: "75"
+        },
+        {
+            name: "Al-Insan",
+            src: "76"
+        },
+        {
+            name: "Al-Mursalat",
+            src: "77"
+        },
+        {
+            name: "An-Naba",
+            src: "78"
+        },
+        {
+            name: "An-Najm",
+            src: "79"
+        },
+        {
+            name: "Abasa",
+            src: "80"
+        },
+        {
+            name: "At-Takwir",
+            src: "81"
+        },
+        {
+            name: "Al-Infitar",
+            src: "82"
+        },
+        {
+            name: "Al-Mutaffifin",
+            src: "83"
+        },
+        {
+            name: "Al-Inshiqaq",
+            src: "84"
+        },
+        {
+            name: "Al-Buruj",
+            src: "85"
+        },
+        {
+            name: "At-Tariq",
+            src: "86"
+        },
+        {
+            name: "Al-A'la",
+            src: "87"
+        },
+        {
+            name: "Al-Ghashiyah",
+            src: "88"
+        },
+        {
+            name: "Al-Fajr",
+            src: "89"
+        },
+
+        {
+            name: "Al-Balad",
+            src: "90"
+        },
+        {
+            name: "Ash-Shams",
+            src: "91"
+        },
+        {
+            name: "Al-Lail",
+            src: "92"
+        },
+        {
+            name: "Ad-Duha",
+            src: "93"
+        },
+        {
+            name: "Ash-Sharh",
+            src: "94"
+        },
+        {
+            name: "At-Tin",
+            src: "95"
+        },
+        {
+            name: "Al-Alaq",
+            src: "96"
+        },
+        {
+            name: "Al-Qadr",
+            src: "97"
+        },
+        {
+            name: "Al-Bayyinah",
+            src: "98"
+        },
+        {
+            name: "Az-Zalzalah",
+            src: "99"
+        },
+        {
+            name: "Al-Adiyat",
+            src: "100"
+        },
+        {
+            name: "Al-Qariah",
+            src: "101"
+        },
+        {
+            name: "At-Takathur",
+            src: "102"
+        },
+        {
+            name: "Al-Asr",
+            src: "103"
+        },
+        {
+            name: "Al-Humazah",
+            src: "104"
+        },
+        {
+            name: "Al-Fil",
+            src: "105"
+        },
+        {
+            name: "Quraish",
+            src: "106"
+        },
+        {
+            name: "Al-Maun",
+            src: "107"
+        },
+        {
+            name: "Al-Kauther",
+            src: "108"
+        },
+        {
+            name: "Al-Kafirun",
+            src: "109"
+        },
+        {
+            name: "An-Nasr",
+            src: "110"
+        },
+        {
+            name: "Al-Masad",
+            src: "111"
+        },
+        {
+            name: "Al-Ikhlas",
+            src: "112"
+        },
+        {
+            name: "Al-Falaq",
+            src: "113"
+        },
+        {
+            name: "An-Nas",
+            src: "114"
+        }
    ];

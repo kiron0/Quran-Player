@@ -319,7 +319,7 @@ ul li.playing{
     margin-bottom: 2rem;
     font-size: 1.5rem;
     margin-top: 2rem;
-    width: 80%;
+    width: 50%;
     border-radius: 1rem;
     padding: 1rem;
   }
@@ -341,6 +341,6 @@ ul li.playing{
 @media screen and (max-width: 776px) {
   .header-text{
     font-size: 1rem;
-    width: 55%;
+    width: 85%;
   }
 }
