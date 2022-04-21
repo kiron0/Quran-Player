@@ -24,7 +24,7 @@ function loadMusic(indexNumb) {
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = `Mishary Bin Rashid Alafasy`;
   musicImg.src = `images/surah.jpg`;
-  mainAudio.src = `Surah/${allMusic[indexNumb - 1].src}.mp3`;
+  mainAudio.src = `surah/${allMusic[indexNumb - 1].src}.mp3`;
 }
 
 //play music function
@@ -185,8 +185,8 @@ for (let i = 0; i < allMusic.length; i++) {
                   <span>${allMusic[i].name}</span>
                   <p>${allMusic[i].artist}</p>
                 </div>
-                <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
-                <audio class="${allMusic[i].src}" src="Surah/${
+                <span id="${allMusic[i].src}" class="audio-duration">0:51</span>
+                <audio class="${allMusic[i].src}" src="surah/${
     allMusic[i].src
   }.mp3"></audio>
               </li>`;

@@ -1,0 +1,92 @@
+let allMusic = [
+  {
+    name: "Behula",
+    artist: "Shunno Band",
+    img: "music-1",
+    src: "music-1",
+  },
+  {
+    name: "Shondha Namay Rakhi",
+    artist: "Sina Hasan and Bangla Five",
+    img: "music-2",
+    src: "music-2",
+  },
+  {
+    name: "Confusion",
+    artist: "Bangla Five",
+    img: "music-3",
+    src: "music-3",
+  },
+  {
+    name: "Noya Daman",
+    artist: "Muza ft. Tosiba",
+    img: "music-4",
+    src: "music-4",
+  },
+  {
+    name: "Buttabomma",
+    artist: "Armaan Malik",
+    img: "music-5",
+    src: "music-5",
+  },
+  {
+    name: "Aasan Nahin Yahan",
+    artist: "Hansika Pareek",
+    img: "music-6",
+    src: "music-6",
+  },
+  {
+    name: "Childhood (Hindi Version)",
+    artist: "Anshit ft.-Suffeji",
+    img: "music-7",
+    src: "music-7",
+  },
+  {
+    name: "Depression",
+    artist: "GR Tanmoy",
+    img: "music-8",
+    src: "music-8",
+  },
+  {
+    name: "Ferate Parini Ami",
+    artist: "Appointment Letter",
+    img: "music-9",
+    src: "music-9",
+  },
+  {
+    name: "Dil Amar",
+    artist: "Tanjib Sarowar & Meghla",
+    img: "music-10",
+    src: "music-10",
+  },
+  {
+    name: "Dekhte Dekhte",
+    artist: "Aksh Baghla",
+    img: "music-11",
+    src: "music-11",
+  },
+  {
+    name: "Tuhi Meri Shab Hai",
+    artist: "KK",
+    img: "music-12",
+    src: "music-12",
+  },
+  {
+    name: "Ajab Si",
+    artist: "KK",
+    img: "music-13",
+    src: "music-13",
+  },
+  {
+    name: "Dil Ibadat",
+    artist: "KK",
+    img: "music-14",
+    src: "music-14",
+  },
+  {
+    name: "Ek Tarfa Pyar",
+    artist: "Aamir, Somya, Doll",
+    img: "music-15",
+    src: "music-15",
+  },
+];
