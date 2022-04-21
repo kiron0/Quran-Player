@@ -15,7 +15,7 @@
 :root{
   --pink: #ff74a4;
   --violet: #9f6ea3;
-  /* --lightblack: #515C6F; */
+  --lightblack: #515C6F;
   --white: #444;
   --darkwhite: #cecaca;
   --pinkshadow: #ffcbdd;
@@ -59,8 +59,12 @@ body.active{
   width: 20%;
   margin: 1.5rem auto;
   margin-top: 3rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
   padding: 1rem;
+}
+
+.fa-book-quran{
+  font-size: 1.5rem;
 }
 
 section{
@@ -290,6 +294,28 @@ ul li.playing{
   color: var(--pink);
 }
 
+.footer-text{
+  color: var(--white);
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow-inset);
+  text-align: center;
+  font-size: 1.2rem;
+  width: 25%;
+  margin: 1rem auto;
+  margin-top: 3rem;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.footer-text a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer-text a:hover{
+  color: var(--green);
+}
+
 #theme-toggler{
   position: absolute;
   top: 1.5rem;
@@ -311,17 +337,23 @@ ul li.playing{
 }
 
 @media screen and (max-width: 420px) {
-  body{
-    overflow: hidden;
+.header-text{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    width: 60%;
+    padding: 1rem;
   }
 
-  .header-text{
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    width: 80%;
-    border-radius: 1rem;
-    padding: 1rem;
+  .footer-text{
+    font-size: 1.1rem;
+    margin-top: -10rem;
+    margin-bottom: 0;
+    width: 95%;
+  }
+
+  .fa-book-quran{
+    font-size: 1.1rem;
   }
 
   .wrapper{
@@ -338,9 +370,29 @@ ul li.playing{
   }
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (min-width: 776px) {
   .header-text{
-    font-size: 1rem;
-    width: 55%;
+    font-size: 1.3rem;
+    width: 40%;
+  }
+  .fa-book-quran{
+    font-size: 1.3rem;
+  }
+  .footer-text{
+    font-size: 1.1rem;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-text{
+    font-size: 1.5rem;
+    width: 20%;
+  }
+  .fa-book-quran{
+    font-size: 1.5rem;
+  }
+  .footer-text{
+    font-size: 1.1rem;
+    width: 20%;
   }
 }
